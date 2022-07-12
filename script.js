@@ -7,11 +7,11 @@ function gameOver()
     let message;
     if(winner === 1)
     {
-        message = `GAME OVER\nYOU WON THE GAME\nYou: ${playerScore} - ${computerScore} Computer\nClick OK to play again`;
+        message = `GAME OVER\nYOU WON THE GAME\nYou ${playerScore} - ${computerScore} Computer\nClick OK to play again`;
     }
     else if(winner === 2)
     {
-        message = `GAME OVER\nYOU LOST THE GAME\nYou: ${playerScore} - ${computerScore} Computer\nClick OK to play again`;
+        message = `GAME OVER\nYOU LOST THE GAME\nYou ${playerScore} - ${computerScore} Computer\nClick OK to play again`;
     }
     alert(message);
     playerScore = 0;
